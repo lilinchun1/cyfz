@@ -60,6 +60,76 @@
         </ul>
     </div>
 </header>
+<nav class="main-nav">
+    <div class="main-nav-center">
+        <ul>
+            <li><a href="">网站首页</a></li>
+            <li><a href="">创发会简介</a></li>
+            <li><a href="">活动中心</a></li>
+            <li><a href="">资源平台</a></li>
+            <li><a href="">组织大事记</a></li>
+            <li><a href="">分会组织</a></li>
+            <li><a class="bdn" href="">联系我们</a></li>
+        </ul>
+    </div>
+</nav>
+<div class="fullSlide">
+    <div class="bd">
+        <ul>
+            <li _src="url(img/1.jpg)"><a target="_blank" href=""></a></li>
+            <li _src="url(img/2.jpg)"><a target="_blank" href=""></a></li>
+            <li _src="url(img/3.jpg)"><a target="_blank" href=""></a></li>
+        </ul>
+    </div>
+
+    <span class="prev"></span>
+    <span class="next"></span>
+</div>
+<div class="container">
+    <section class="pj">
+        <ul>
+            <li>
+                <span class="logo logo1"></span>
+                <h2>活动中心</h2>
+                <em>
+                    每月定期举办沙龙活动，诚邀经
+                    济管理类的资深专家、教授，实
+                    战经验丰富的企业家与会员互动
+                    学习，帮助企业积极改善。
+                </em>
+            </li>
+            <li>
+                <span class="logo logo2"></span>
+                <h2>会员平台</h2>
+                <em>
+                    负责制定会员发展计划，新会
+                    员的发展、走访、审核、登记
+                    以及编组、会费缴纳、档案管
+                    理等工作和互动环节。
+                </em>
+            </li>
+            <li>
+                <span class="logo logo3"></span>
+                <h2>企业库</h2>
+                <em>
+                    弘扬社会责任感”的道德理念，
+                    积极组织会员开展爱心奉献活
+                    动等工作重点的方面。
+                </em>
+            </li>
+            <li class="bdn">
+                <span class="logo logo4"t></span>
+                <h2>资源共享</h2>
+                <em>
+                    在所有新老会员不断发展壮大。
+                    同时欢迎更多创业者加入我们的
+                    团队！让我们共同学习！共献爱
+                    心！共享资源！共图发展！
+                </em>
+            </li>
+        </ul>
+    </section>
+</div>
 <footer class="footer">
     <div class="footer-center cf">
         <div class="footer-logo"></div>
@@ -79,5 +149,23 @@
         </div>
     </div>
 </footer>
+<script type="text/javascript" src="js/jquery1.42.min.js"></script>
+<script type="text/javascript" src="js/jquery.SuperSlide.2.1.1.js"></script>
+<script type="text/javascript">
+
+    /* 控制左右按钮显示 */
+    jQuery(".fullSlide").hover(function(){ jQuery(this).find(".prev,.next").stop(true,true).fadeTo("show",0.5) },function(){ jQuery(this).find(".prev,.next").fadeOut() });
+
+    /* 调用SuperSlide */
+    jQuery(".fullSlide").slide({ titCell:".hd ul", mainCell:".bd ul", effect:"fold",  autoPlay:true, autoPage:true, trigger:"click",
+        startFun:function(i){
+            var curLi = jQuery(".fullSlide .bd li").eq(i); /* 当前大图的li */
+            if( !!curLi.attr("_src") ){
+                curLi.css("background-image",curLi.attr("_src")).removeAttr("_src") /* 将_src地址赋予li背景，然后删除_src */
+            }
+        }
+    });
+</script>
+
 </body>
 </html>
