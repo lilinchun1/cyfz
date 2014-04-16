@@ -46,9 +46,7 @@ a{-webkit-transition: all .3s ease 0s;-moz-transition: all .3s ease 0s;-ms-trans
 .footer{ padding-top: 16px; height: 64px; background: #265082;}
 .footer-logo{ margin: 2px 0 0 20px; width: 260px; height: 44px; float: left; border-right: 1px solid #51739b; background: url(../img/footer_logo.gif) 0 0 no-repeat;}
 .footer-info{ height: 64px; float: left;}
-.footer-info p,
-.footer-info address
-{ margin: 0 0 4px 24px; color: #999999; font-family: "simsun";}
+.footer-info address{ margin: 0 0 4px 24px; color: #999999; font-family: "simsun";}
 .footer-info a{ color: #999;text-decoration: none;}
 .footer-info a:hover{ color: #fff;}
 
