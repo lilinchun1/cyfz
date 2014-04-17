@@ -98,26 +98,27 @@ a{-webkit-transition: all .3s ease-in-out 0s;-moz-transition: all .3s ease-in-ou
 .activity{ margin: 10px 0 0 10px; width: 1000px; }
 .activity-tt{ height: 40px; background: url(../img/com_tt.gif) repeat-x;}
 .activity-tt span{ float: left; margin: 4px 0 0 10px; width: 32px; height: 32px; background: url(../img/tt_logo.png) 0 0 no-repeat; display: inline;}
-.activity-tt b{ float: left;margin-left: 10px; height: 40px; line-height: 40px; display: block; font-size: 18px; color: #666666; display: inline;}
+.activity-tt h2{ float: left;margin-left: 10px; height: 40px; line-height: 40px; display: block; font-size: 18px; color: #666666; display: inline; }
 .activity-tt i{ margin-right: 20px; height: 40px; line-height: 40px; float: right; display: inline;}
 .activity-tt i a{ font-family: "simsun";}
 
 .picScroll-left{ position: relative;}
 .picScroll-left .next,
-.picScroll-left .prev{ width: 20px; height: 40px; display: block; background: url(../img/activity_bt.gif) 0 0 no-repeat;text-indent: -999em; cursor: pointer; position: absolute; top: 0;}
+.picScroll-left .prev{ position: absolute; top: 52%; width: 20px; height: 40px; display: block; background: url(../img/activity_bt.gif) 0 0 no-repeat;text-indent: -999em; cursor: pointer; }
 .picScroll-left .next{ left: 0;}
 .picScroll-left .prev { right: 0; background-position: 0 -44px;}
-.bd{ position: relative; margin-left: 21px; width: 958px; height: 208px;}
-.bd:after{content: ''; position: absolute; top: 0; left: -1px; width: 1px; height: 229px; display: block; background: #fff url(../img/activity_line.gif) 0 0 no-repeat;}
+.picScroll-left .bd{ position: relative; top: 20px; left: 23px; width: 955px; height: 229px; overflow: hidden;}
+.picScroll-left:after{content: ''; position: absolute; top: 0; left: 20px; width: 1px; height: 229px; display: block; background: #fff url(../img/activity_line.gif) 0 0 no-repeat;}
+.picScroll-left:before{content: ''; position: absolute; top: 0; right: 19px; width: 1px; height: 229px; display: block; background: #fff url(../img/activity_line.gif) 0 0 no-repeat;}
+.picList li{ margin-right: 25px; width: 220px; height: 208px; float: left; }
+.picList figcaption{ width: 220px; height: 33px; overflow: hidden;}
+.picList figcaption b{ margin-right: 10px; display: inline; float: left; width: 73px; height: 31px; line-height: 31px; border: 1px solid #ff9900; text-align: center; font-size: 20px; color: #ff9900;}
+.picList figcaption time,
+.picList figcaption address{ height: 16px; line-height: 16px;font-size: 14px; font-weight: bolder;}
+.picList figure em{ margin-top: 10px; width: 220px; height: 165px; display: block;}
+.picList figure img{ width: 100%;}
 
-
-
-
-
-
-
-
-
+.picList .end{border:1px solid #7f7f7f; color: #999999;}
 
 
 
