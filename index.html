@@ -27,15 +27,15 @@
                     </figure>
                 </a>
             </li>
-            <li>
-                <a href="">
+            <li id="J_wx">
+                <!--<a href="">-->
                     <figure>
                         <span class="top-center-smlogo smlogo2"></span>
                         <figcaption>
                             安卓版
                         </figcaption>
                     </figure>
-                </a>
+                <!--</a>-->
             </li>
             <li>
                 <a href="">
@@ -59,9 +59,9 @@
             </li>
             <div class="wei-xin">
                 <em></em>
+                <span></span>
                 <img src="img/weixin.gif" alt=""/>
                 <i>扫描下载客户端<a class="wei-xin-link" href="">下载安装包</a></i>
-
             </div>
         </ul>
 
@@ -136,6 +136,29 @@
             </li>
         </ul>
     </section>
+    <section class="activity cf">
+        <div class="activity-tt">
+            <span></span>
+            <b>活动中心</b>
+            <i><a href="">发现更多>></a></i>
+        </div>
+        <div class="picScroll-left">
+                <a class="next">
+                    >>
+                </a>
+                <a class="prev">
+                <<
+                </a>
+            <div class="bd">
+                <ul class="picList">
+                    <li><a href="">1</a></li>
+                    <li><a href="">2</a></li>
+                    <li><a href="">3</a></li>
+                    <li><a href="">4</a></li>
+                </ul>
+            </div>
+        </div>
+    </section>
 </div>
 <footer class="footer">
     <div class="footer-center cf">
@@ -172,7 +195,21 @@
             }
         }
     });
+    jQuery(".picScroll-left").slide({titCell:".hd ul",mainCell:".bd ul",autoPage:true,effect:"left",autoPlay:true,vis:1,trigger:"click"});
+    $(document).ready(function(){
+        $('#J_wx').mouseover(function(){
+           $('.wei-xin').show();
+        });
+        $('.wei-xin').mouseover(function(){
+            $('.wei-xin').show();
+        });
+        $('#J_wx').mouseout(function(){
+            $('.wei-xin').hide();
+        });
+        $('.wei-xin').mouseout(function(){
+            $('.wei-xin').hide();
+        });
+    });
 </script>
-
 </body>
 </html>
