@@ -1,0 +1,173 @@
+<!doctype html>
+<html lang="zh-CN">
+<head>
+    <meta charset="UTF-8">
+    <title>大连创业发展研究会</title>
+    <link rel="stylesheet" href="styles/index.css"/>
+    <!--[if lt IE 9]>
+    <script src="js/html5shiv-printshiv.min.js"></script>
+    <![endif]-->
+</head>
+<body>
+<header class="top-head">
+    <div class="top-center cf">
+        <h1>大连创业发展研究会</h1>
+        <dl>
+            <dt><a href="">会员登录</a></dt>
+            <dt><a href="">获取账号</a></dt>
+        </dl>
+        <ul>
+            <li>
+                <a href="">
+                    <figure>
+                        <span class="top-center-smlogo"></span>
+                        <figcaption>
+                            微网站
+                        </figcaption>
+                    </figure>
+                </a>
+            </li>
+            <li id="J_wx">
+                <!--<a href="">-->
+                <figure>
+                    <span class="top-center-smlogo smlogo2"></span>
+                    <figcaption>
+                        安卓版
+                    </figcaption>
+                </figure>
+                <!--</a>-->
+            </li>
+            <li>
+                <a href="">
+                    <figure>
+                        <span class="top-center-smlogo smlogo3"></span>
+                        <figcaption>
+                            苹果版
+                        </figcaption>
+                    </figure>
+                </a>
+            </li>
+            <li>
+                <a href="">
+                    <figure>
+                        <span class="top-center-smlogo smlogo4"></span>
+                        <figcaption>
+                            收藏本站
+                        </figcaption>
+                    </figure>
+                </a>
+            </li>
+            <div class="wei-xin">
+                <em></em>
+                <span></span>
+                <img src="img/weixin.gif" alt=""/>
+                <i>扫描下载客户端<a class="wei-xin-link" href="">下载安装包</a></i>
+            </div>
+        </ul>
+
+    </div>
+</header>
+<nav class="main-nav">
+    <div class="main-nav-center">
+        <ul>
+            <li><a href="">网站首页</a></li>
+            <li><a href="">创发会简介</a></li>
+            <li><a href="">活动中心</a></li>
+            <li><a href="">资源平台</a></li>
+            <li><a href="">组织大事记</a></li>
+            <li><a href="">分会组织</a></li>
+            <li><a class="bdn" href="">联系我们</a></li>
+        </ul>
+    </div>
+</nav>
+<nav class="sub-nav">
+    <ul>
+        <li><a href="">大连创业发展研究会</a></li><span>></span>
+        <li><a href="">网站首页</a></li><span>></span>
+        <li><a href="">活动中心</a></li><span>></span>
+        <li><a href="">分部活动</a></li><span>></span>
+        <li><a href="">沙龙部</a></li><span>></span>
+        <li><a href="">全面解析微信营销</a></li>
+    </ul>
+</nav>
+<div class="container">
+    <div class="banner-top">
+        <a href=""><img src="img/banner-top.jpg" alt=""/></a>
+    </div>
+    <aside class="sidebar-nav">
+        <div class="sidebar-tt">
+            活动中心
+        </div>
+        <ul class="sidebar-list">
+            <li><span class="icon icon-presentation"></span><a href="">全部</a></li>
+            <li><span class="icon icon-profile-2"></span><a href="">总部活动</a></li>
+            <li><span class="icon icon-coffee"></span><a href="">分部活动</a></li>
+            <li><span class="icon icon-drink-2"></span><a href="">分会活动</a></li>
+            <li class="sidebar-list-active"></li>
+            <li><span class="icon icon-library"></span><a href="">协会概况</a></li>
+            <li><span class="icon icon-site-map"></span><a href="">组织结构</a></li>
+            <li><span class="icon icon-calendar"></span><a href="">入会须知与条款</a></li>
+            <li><span class="icon icon-book"></span><a href="">商会章程</a></li>
+            <li><span class="icon icon-edit"></span><a href="">发展动态</a></li>
+            <li><span class="icon icon-time-2"></span><a href="">组织大事记</a></li>
+            <li><span class="icon icon-location"></span><a href="">联系我们</a></li>
+
+        </ul>
+    </aside>
+
+<div class="cf"></div>
+</div>
+
+<footer class="footer">
+    <div class="footer-center cf">
+        <div class="footer-logo"></div>
+        <div class="footer-info">
+            <address>
+                版权所有大连市创业发展研究会
+            </address>
+            <address>
+                地址：大连市甘井子区辛寨子街道砬子山村工业园区69号
+            </address>
+            <address>
+                电话：0411—66881555 &nbsp;
+                传真：0411—66881788 &nbsp;
+                网址：<a href="http://www.dlfzz.com/">WWW.DLFZZ.COM</a>&nbsp&nbsp;
+                邮箱：DLCYZ@163.COM
+            </address>
+        </div>
+    </div>
+</footer>
+<script type="text/javascript" src="js/jquery1.42.min.js"></script>
+<script type="text/javascript" src="js/jquery.SuperSlide.2.1.1.js"></script>
+<script type="text/javascript">
+
+    /* 控制左右按钮显示 */
+    jQuery(".fullSlide").hover(function(){ jQuery(this).find(".prev,.next").stop(true,true).fadeTo("show",0.5) },function(){ jQuery(this).find(".prev,.next").fadeOut() });
+
+    /* 调用SuperSlide */
+    jQuery(".fullSlide").slide({ titCell:".hd ul", mainCell:".bd ul", effect:"fold",  autoPlay:true, autoPage:true, trigger:"click",
+        startFun:function(i){
+            var curLi = jQuery(".fullSlide .bd li").eq(i); /* 当前大图的li */
+            if( !!curLi.attr("_src") ){
+                curLi.css("background-image",curLi.attr("_src")).removeAttr("_src") /* 将_src地址赋予li背景，然后删除_src */
+            }
+        }
+    });
+    jQuery(".picScroll-left").slide({titCell:".hd ul",mainCell:".bd ul",autoPage:true,effect:"leftLoop",autoPlay:true,vis:4,trigger:"click"});
+    $(document).ready(function(){
+        $('#J_wx').mouseover(function(){
+            $('.wei-xin').show();
+        });
+        $('.wei-xin').mouseover(function(){
+            $('.wei-xin').show();
+        });
+        $('#J_wx').mouseout(function(){
+            $('.wei-xin').hide();
+        });
+        $('.wei-xin').mouseout(function(){
+            $('.wei-xin').hide();
+        });
+    });
+</script>
+</body>
+</html>

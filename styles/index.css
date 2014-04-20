@@ -160,3 +160,58 @@ a{-webkit-transition: all .3s ease-in-out 0s;-moz-transition: all .3s ease-in-ou
 
 /*banner*/
 .banner{ width: 980px; height: 120px; margin: 20px auto 15px;}
+
+/*活动中心页*/
+.sub-nav{ height: 30px; line-height: 30px; background: #ffffff;  display: block;}
+.sub-nav ul{ width: 1022px; margin: 0 auto;}
+.sub-nav ul li{ float: left;}
+.sub-nav ul li a{ color: #999999;}
+.sub-nav ul li a:hover{ color: #333333;}
+.sub-nav ul span{ color: #999999; padding: 0 12px; float: left;}
+
+.banner-top{ width: 1020px; height: 150px; margin: auto;}
+
+.sidebar-nav{ margin: 10px 0 0 10px; display: inline; width: 240px;min-height: 800px; float: left; background: #346eb4 url(../img/sidebar-navbg.png) 0 0 no-repeat;}
+.sidebar-tt{ margin: 0 7px; height: 56px; border-bottom: 1px solid #cccccc; text-indent: -9999em; background: url(../img/sidebar-nav-tt.png) 0 0 no-repeat;}
+.sidebar-list{}
+.sidebar-list li{ height: 34px; line-height: 34px; }
+.sidebar-list li a{  color: #ffffff; font-size: 14px;}
+.sidebar-list li a:hover { color: #346eb4; }
+.sidebar-list-active{ background: #fff;}
+.sidebar-list li span{ margin: 6px 0 0 0; float: left;}
+.icon {position: relative;display: inline-block;color: #333;width: 22px;height: 22px;line-height: 22px;text-align: center;}
+
+.icon:after {font-family: 'brankic1979';font-style: normal;speak: none;font-weight: normal;-webkit-font-smoothing: antialiased;font-size: 22px;color: #ffffff;}
+.icon-number:after {content:"\21";}
+.icon-profile-2:after {content:"\e091";}
+.icon-drink-2:after {content:"\e074";}
+.icon-coffee:after {content:"\e077";}
+.icon-presentation:after {content:"\e0da";}
+.icon-calendar:after {content:"\e06a";}
+.icon-time-2:after {content:"\e07f";}
+.icon-book:after {content:"\30";}
+.icon-location:after {content:"\75";}
+.icon-edit:after {content:"\e039";}
+.icon-site-map:after {content:"\e086";}
+.icon-library:after {content:"\e0d2";}
+@font-face {font-family: 'brankic1979';src:url('../fonts/brankic1979.eot');
+    src:url('../fonts/brankic1979.eot?#iefix') format('embedded-opentype'),
+    url('../fonts/brankic1979.svg#brankic1979') format('svg'),
+    url('../fonts/brankic1979.woff') format('woff'),
+    url('../fonts/brankic1979.ttf') format('truetype');
+    font-weight: normal;
+    font-style: normal;
+}
+
+
+
+
+
+
+
+
+
+
+
+
+
