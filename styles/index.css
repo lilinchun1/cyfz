@@ -173,15 +173,19 @@ a{-webkit-transition: all .3s ease-in-out 0s;-moz-transition: all .3s ease-in-ou
 
 .sidebar-nav{ margin: 10px 0 0 10px; display: inline; width: 240px;min-height: 800px; float: left; background: #346eb4 url(../img/sidebar-navbg.png) 0 0 no-repeat;}
 .sidebar-tt{ margin: 0 7px; height: 56px; border-bottom: 1px solid #cccccc; text-indent: -9999em; background: url(../img/sidebar-nav-tt.png) 0 0 no-repeat;}
-.sidebar-list{ width: 240px;}
-.sidebar-list li{ height: 34px; line-height: 34px; }
-.sidebar-list li a{  color: #ffffff; font-size: 14px;}
+.sidevar-listwrap{width: 240px; position: relative;}
+.sidebar-list{ margin-top: 20px; position: absolute; z-index: 2; width: 240px;}
+.sidebar-list li{ margin-bottom: 8px; padding-left: 30px; height: 34px; line-height: 34px; }
+.sidebar-list li a{ display: block; color: #ffffff; font-size: 14px;}
 .sidebar-list li a:hover { color: #346eb4; }
-.sidebar-list-active{ width: 224px; background: #fff;}
-.sidebar-list li span{ margin: 6px 0 0 0; float: left;}
+.sidebar-list .sidebar-list-active{ padding: 0; position: absolute; top: 0px; left: 23px; z-index: -1;width: 224px; background: url(../img/sidebar_bg.gif) repeat-x;}
+.sidebar-list .sidebar-list-active{-webkit-transition: all .3s ease-in-out 0s;-moz-transition: all .3s ease-in-out 0s;-ms-transition: all .3s ease-in-out 0s;
+    -o-transition: all .3s ease-in-out 0s;transition: all .3s ease-in-out 0s;}
+.sidebar-list li span{ margin: 6px 12px 0 0; display: inline; float: left;}
+.sidebar-list li:nth-child(2):hover ~ .sidebar-list-active { top: 65px;}
 
 .icon {position: relative;display: inline-block;color: #333;width: 22px;height: 22px;line-height: 22px;text-align: center;}
-.icon:after {font-family: 'brankic1979';font-style: normal;speak: none;font-weight: normal;-webkit-font-smoothing: antialiased;font-size: 22px;color: #ffffff;}
+.icon:after {font-family: 'brankic1979';font-style: normal;speak: none;font-weight: normal;-webkit-font-smoothing: antialiased;font-size: 22px;color: #ffffff; text-shadow: 0 0 1px #333;}
 .icon-number:after {content:"\21";}
 .icon-profile-2:after {content:"\e091";}
 .icon-drink-2:after {content:"\e074";}
