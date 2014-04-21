@@ -163,15 +163,22 @@ a{-webkit-transition: all .3s ease-in-out 0s;-moz-transition: all .3s ease-in-ou
 
 /*活动中心页*/
 .sub-nav{ height: 30px; line-height: 30px; background: #ffffff;  display: block;}
-.sub-nav ul{ width: 1022px; margin: 0 auto;}
-.sub-nav ul li{ float: left;}
+.sub-nav ul{ width: 1022px; margin: 0 auto; padding-left: 6px;}
+.sub-nav ul li{ float: left; height: 30px;}
 .sub-nav ul li a{ color: #999999;}
 .sub-nav ul li a:hover{ color: #333333;}
-.sub-nav ul span{ color: #999999; padding: 0 12px; float: left;}
+.sub-nav ul span{height: 30px; color: #999999; padding: 0 12px; }
 
 .banner-top{ width: 1020px; height: 150px; margin: auto;}
 
-.sidebar-nav{ margin: 10px 0 0 10px; display: inline; width: 240px;min-height: 800px; _height: 800px; float: left; background: #346eb4 url(../img/sidebar-navbg.png) 0 0 no-repeat;}
+.sidebar-nav{ width: 240px;min-height: 400px; _height: 400px; float: left; background: #346eb4 url(../img/sidebar-navbg.png) 0 0 no-repeat;}
+
+.two-col { margin: 10px 0 0 10px; width: 1000px; }
+.two-col .righ-wrap { position: relative; width: 100%; float: left; overflow: hidden;}
+.two-col .left-wrap { position: relative; right: 760px; width: 100%; float: left; background: #346eb4;}
+.two-col .left{ position: relative; left: 760px; float: left; width: 240px; }
+.two-col .right{position: relative; left: 760px; float: left; width: 760px;}
+
 .sidebar-tt{ margin: 0 7px; height: 56px; border-bottom: 1px solid #cccccc; text-indent: -9999em; background: url(../img/sidebar-nav-tt.png) 0 0 no-repeat;}
 .sidevar-listwrap{width: 240px; position: relative;}
 .sidebar-list{ margin-top: 20px; position: absolute; z-index: 2; width: 240px;}
@@ -223,10 +230,13 @@ a{-webkit-transition: all .3s ease-in-out 0s;-moz-transition: all .3s ease-in-ou
     font-style: normal;
 }
 
-
-
-
-
+/*活动列表*/
+.all-activity-list{ width: 740px; float: right;}
+.all-activity-list-tt { height: 40px; line-height: 40px; background: url(../img/com_tt.gif) repeat-x; }
+.all-activity-list-nav{ margin: 0 24px; height: 46px; line-height: 46px; border-bottom: 1px solid #ccc;}
+.all-activity-list-nav a{ padding: 0 26px 0 4px; font-size: 14px; color: #346eb4;}
+.all-activity-list-nav a:hover{ color: #ff9900;}
+.all-activity-list-nav .active{ color: #ff9900;}
 
 
 
