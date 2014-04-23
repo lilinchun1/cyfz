@@ -8,7 +8,7 @@
     <script src="js/html5shiv-printshiv.min.js"></script>
     <![endif]-->
     <style>
-        .sidebar-list .sidebar-list-active { top: 84px;}
+        .sidebar-list .sidebar-list-active { top: 84px;}/*侧边栏滑动条起始位置*/
     </style>
 </head>
 <body>
@@ -148,9 +148,33 @@
                                 <b>活动地点：</b>香格里拉大酒店4楼多功能厅
                             </address>
                             <p><b>人数限制：</b>60人 <span>已报名65人</span> <span>已签到60人</span></p>
+
+                            <form action="">
+                                <button class="btn-act-end" type="submit"></button>
+                            </form>
+                        </section>
+                        <section class="activity-con-tab">
+                            <div class="slideTxtBox">
+                                <div class="hd">
+                                    <ul><li>活动详情</li><li class="on">报名名单</li></ul>
+                                    <a class="return-list" href="activity.html">返回列表</a>
+                                </div>
+                                <div class="bd">
+                                    <section class="activity-con-tab-l">1</section>
+                                    <section class="activity-con-tab-r">
+                                        <nav class="activity-con-tab-r-tt">
+                                            <b class="mgl-1">会员名称</b>
+                                            <b class="mgl-2">会员企业 </b>
+                                            <b class="mgl-3">企业职务</b>
+                                            <b class="mgl-4">会员属性</b>
+                                            <b class="mgl-5">报名时间</b>
+                                            <b class="mgl-5">签到时间</b>
+                                        </nav>
+                                    </section>
+                                </div>
+                            </div>
                         </section>
                     </section>
-
                 </div>
             </div>
         </div>
@@ -181,20 +205,7 @@
 <script type="text/javascript" src="js/jquery1.42.min.js"></script>
 <script type="text/javascript" src="js/jquery.SuperSlide.2.1.1.js"></script>
 <script type="text/javascript">
-
-    /* 控制左右按钮显示 */
-    jQuery(".fullSlide").hover(function(){ jQuery(this).find(".prev,.next").stop(true,true).fadeTo("show",0.5) },function(){ jQuery(this).find(".prev,.next").fadeOut() });
-
-    /* 调用SuperSlide */
-    jQuery(".fullSlide").slide({ titCell:".hd ul", mainCell:".bd ul", effect:"fold",  autoPlay:true, autoPage:true, trigger:"click",
-        startFun:function(i){
-            var curLi = jQuery(".fullSlide .bd li").eq(i); /* 当前大图的li */
-            if( !!curLi.attr("_src") ){
-                curLi.css("background-image",curLi.attr("_src")).removeAttr("_src") /* 将_src地址赋予li背景，然后删除_src */
-            }
-        }
-    });
-    jQuery(".picScroll-left").slide({titCell:".hd ul",mainCell:".bd ul",autoPage:true,effect:"leftLoop",autoPlay:true,vis:4,trigger:"click"});
+    jQuery(".slideTxtBox").slide({effect:"fold",delayTime:0});
     $(document).ready(function(){
         $('#J_wx').mouseover(function(){
             $('.wei-xin').show();
