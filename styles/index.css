@@ -230,7 +230,7 @@ a{-webkit-transition: all .3s ease-in-out 0s;-moz-transition: all .3s ease-in-ou
     font-style: normal;
 }
 
-/*活动列表*/
+/*活动中心列表页*/
 .all-activity-list{ width: 740px; float: right; background: url(../img/list-bg.jpg) 0 40px repeat-x;}
 .all-activity-list-tt { height: 40px; line-height: 40px; background: url(../img/com_tt.gif) repeat-x; }
 .all-activity-list-nav{ margin: 0 24px; height: 46px; line-height: 46px; border-bottom: 1px solid #ccc;}
@@ -246,7 +246,35 @@ a{-webkit-transition: all .3s ease-in-out 0s;-moz-transition: all .3s ease-in-ou
 .all-activity-list-con li h2 a{ font-size: 16px; font-weight: bold;}
 .all-activity-list-con li h3{ float: left; margin: 15px 0 0 20px; display: inline; width: 360px; height: 16px; line-height: 16px; overflow: hidden;}
 .all-activity-list-con li h3 { font-size: 12px; color: #666666; font-weight: normal;}
-.all-activity-list-con li span{ position: absolute; top: 33px; right: 0; width: 111px; height: 67px; display: block; background: url(../img/act-ing.jpg) 0 0 no-repeat;}
-.all-activity-list-con li i{ margin: 24px 0 0 18px; width: 470px; height: 36px; float: left;}
+.all-activity-list-con li span{ position: absolute; top: 33px; right: 0; width: 111px; height: 67px; display: block; background: url(../img/act-ing.png) 0 0 no-repeat;}
+.all-activity-list-con .act-end{ background-position: 0 -71px;}/*活动结束样式*/
+.all-activity-list-con li i { margin: 24px 0 0 18px; width: 470px; height: 36px; line-height: 18px; float: left; }
+.all-activity-list-con li i a{ color: #346eb4; font-weight: bold;}
 .all-activity-list-con li time,
-.all-activity-list-con li address{ float: left;}
+.all-activity-list-con li address{ margin-right: 4px; float: left; font-weight: bold; color: #666666;}
+.all-activity-list-con .time-address{ margin: 14px 20px 0 0; display: inline; width: 446px; float: right;}
+
+.page{ position: relative;  padding: 75px 0; width: 100%; overflow: hidden;}
+.page-list{ position: relative; left: 50%; float: left;}
+.page-list li{ margin: 0 5px; position: relative; right: 50%; float: left;}
+.page-list li a{ padding: 0 10px; }
+.page-list li a:hover{background: #346eb4; color: #ffffff;}
+.page-active a{background: #346eb4; color: #ffffff;}
+
+.cf-zoom{zoom: 0;}
+
+/*活动中心内容页*/
+
+
+
+
+
+
+
+
+
+
+
+
+
+
