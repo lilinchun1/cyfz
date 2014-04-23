@@ -231,17 +231,22 @@ a{-webkit-transition: all .3s ease-in-out 0s;-moz-transition: all .3s ease-in-ou
 }
 
 /*活动列表*/
-.all-activity-list{ width: 740px; float: right;}
+.all-activity-list{ width: 740px; float: right; background: url(../img/list-bg.jpg) 0 40px repeat-x;}
 .all-activity-list-tt { height: 40px; line-height: 40px; background: url(../img/com_tt.gif) repeat-x; }
 .all-activity-list-nav{ margin: 0 24px; height: 46px; line-height: 46px; border-bottom: 1px solid #ccc;}
 .all-activity-list-nav a{ padding: 0 26px 0 4px; font-size: 14px; color: #346eb4;}
 .all-activity-list-nav a:hover{ color: #ff9900;}
 .all-activity-list-nav .active{ color: #ff9900;}
 
-
-
-
-
-
-
-
+.all-activity-list-con{ margin: 0 25px;}
+.all-activity-list-con li{ position: relative; height: 210px; border-bottom: 1px solid #ccc;}
+.all-activity-list-con li em{ margin-top: 30px; display: inline; float: left; width: 200px; height: 150px; border: 1px solid #ccc;}
+.all-activity-list-con li hgroup{ display: block;}
+.all-activity-list-con li h2{ float: left; margin: 30px 0 0 20px; display: inline; width: 360px; height: 18px; line-height: 18px; overflow: hidden;}
+.all-activity-list-con li h2 a{ font-size: 16px; font-weight: bold;}
+.all-activity-list-con li h3{ float: left; margin: 15px 0 0 20px; display: inline; width: 360px; height: 16px; line-height: 16px; overflow: hidden;}
+.all-activity-list-con li h3 { font-size: 12px; color: #666666; font-weight: normal;}
+.all-activity-list-con li span{ position: absolute; top: 33px; right: 0; width: 111px; height: 67px; display: block; background: url(../img/act-ing.jpg) 0 0 no-repeat;}
+.all-activity-list-con li i{ margin: 24px 0 0 18px; width: 470px; height: 36px; float: left;}
+.all-activity-list-con li time,
+.all-activity-list-con li address{ float: left;}
