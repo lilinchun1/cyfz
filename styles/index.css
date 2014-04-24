@@ -259,7 +259,7 @@ a{-webkit-transition: all .3s ease-in-out 0s;-moz-transition: all .3s ease-in-ou
 .page{ position: relative;  padding: 50px 0; width: 100%; overflow: hidden;}
 .page-list{ position: relative; left: 50%; float: left;}
 .page-list li{ margin: 0 5px; position: relative; right: 50%; float: left;}
-.page-list li a{ padding: 0 10px; }
+.page-list li a{ padding: 0 10px; text-decoration: none;}
 .page-list li a:hover{background: #346eb4; color: #ffffff;}
 .page-active a{background: #346eb4; color: #ffffff;}
 
@@ -328,3 +328,28 @@ a{-webkit-transition: all .3s ease-in-out 0s;-moz-transition: all .3s ease-in-ou
 .intro-rule-con-tt{ margin: 0 10px; height: 116px; border-bottom: 1px solid #ccc;}
 .intro-rule-con-tt h3{ margin-top: 30px; font-size: 24px;text-align: center; font-weight: normal;}
 .intro-rule-con-tt time{ padding-top: 25px;text-align: center; display: block;}
+.intro-list { margin: 0 24px; width: 692px; overflow: hidden;}
+.intro-list ul{ margin-top: -6px;}
+.intro-list li{ position: relative; float: left; height: 170px; border-bottom: 1px solid #ccc; }
+.intro-list li em{ float: left; margin-top: 30px; display: inline; width: 160px; height: 120px; border: 1px solid #ccc; overflow: hidden;}
+.intro-list li img{ width: 100%;}
+.intro-list li h3{ margin: 30px 0 0 20px; display: inline; float: left;
+    width: 440px; height: 18px; line-height: 18px; overflow: hidden; }
+.intro-list li h3 a{ font-size: 16px;}
+.intro-list li time{ position: absolute; top: 40px; right: 0; color: #999999;}
+.intro-list li i{ margin: 12px 0 0 20px; width: 500px; height: 56px; overflow: hidden; line-height: 18px; float: left; color: #666666;}
+.intro-list li span{ margin-top: 20px; display: inline; float: right;}
+
+
+
+
+
+
+
+
+
+
+
+
+
+
