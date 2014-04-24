@@ -319,6 +319,9 @@ a{-webkit-transition: all .3s ease-in-out 0s;-moz-transition: all .3s ease-in-ou
 .fr{ float: right;}
 
 /*创发会介绍页*/
-.intro-jianjie{ padding: 70px 40px;}
-.intro-jianjie h3{ font-size: 30px;text-align: center; font-weight: normal;}
+.intro-jianjie,
+.intro-rule{ padding: 40px 40px;}
+.intro-jianjie h3,
+.intro-rule h3{ font-size: 30px;text-align: center; font-weight: normal;}
 .intro-jianjie p{ margin-top: 30px; line-height: 26px; font-size: 14px;}
+.intro-rule p{ margin-top: 10px; line-height: 26px; font-size: 14px;}
