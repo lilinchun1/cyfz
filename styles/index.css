@@ -303,18 +303,19 @@ a{-webkit-transition: all .3s ease-in-out 0s;-moz-transition: all .3s ease-in-ou
 .activity-con-tab-r-list li time{ width: 120px; float: left; text-align: center;}
 .txcen{text-align: center;}
 
-.activity-con-tab-l-news{ padding: 30px 16px 0; font-size: 14px; color: #666666; line-height: 24px;}
-
-
-
-
-
-
-
-
-
-
-
+.activity-con-tab-l-news{ padding: 30px 16px 40px; font-size: 14px; color: #666666; line-height: 24px;}
+.activity-con-tab-l-botm{ border-top: 1px solid #ccc;}
+.next-pre{ padding-top: 24px;}
+.next-pre a{ color: #666666;}
+.mgl320{ margin-left: 310px; display: inline;}
+.activity-con-tab-l-botm-news{ margin-top: 10px; width: 345px; float: left;}
+.activity-con-tab-l-botm-news em{ float: left; width: 162px; height: 122px; border: 1px solid #ccc;}
+.activity-con-tab-l-botm-news em img{ width: 160px; height: 120px; margin: 1px;}
+.activity-con-tab-l-botm-news figcaption{ padding-top: 10px;  }
+.activity-con-tab-l-botm-news h4{ margin-left: 20px; display: inline; width: 140px; height: 38px; line-height: 20px; overflow: hidden; float: left;}
+.activity-con-tab-l-botm-news h4 a{ font-size: 14px;}
+.activity-con-tab-l-botm-news i{ margin: 5px 0 0 20px; display: inline;width: 140px; height: 66px; _height: 60px; overflow: hidden; float: left;}
+.fr{ float: right;}
 
 
 
