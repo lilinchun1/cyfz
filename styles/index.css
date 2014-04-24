@@ -255,7 +255,7 @@ a{-webkit-transition: all .3s ease-in-out 0s;-moz-transition: all .3s ease-in-ou
 .all-activity-list-con li address{ margin-right: 4px; float: left; font-weight: bold; color: #666666;}
 .all-activity-list-con .time-address{ margin: 14px 20px 0 0; display: inline; width: 446px; float: right;}
 
-.page{ position: relative;  padding: 75px 0; width: 100%; overflow: hidden;}
+.page{ position: relative;  padding: 50px 0; width: 100%; overflow: hidden;}
 .page-list{ position: relative; left: 50%; float: left;}
 .page-list li{ margin: 0 5px; position: relative; right: 50%; float: left;}
 .page-list li a{ padding: 0 10px; }
@@ -289,15 +289,21 @@ a{-webkit-transition: all .3s ease-in-out 0s;-moz-transition: all .3s ease-in-ou
 .activity-con-tab-r-tt{ height: 37px; background: #ebebeb; line-height: 37px;}
 .mgl-1 { margin-left: 20px; }
 .mgl-2 { margin-left: 26px;}
-.mgl-3 { margin-left: 160px; }
-.mgl-4 { margin-left: 46px;}
+.mgl-3 { margin-left: 120px; }
+.mgl-4 { margin-left: 26px;}
 .mgl-5 { margin-left: 40px; }
 
+.activity-con-tab-r-list{ margin-top: 7px;}
+.activity-con-tab-r-list li{ height: 38px; line-height: 38px;}
+.activity-con-tab-r-list li span,
+.hy-name{ width: 58px; float: left;text-align: center;}
+.hy-name{width: 70px; }
+.yh-comp{ padding-left: 16px; width: 180px;float: left;}
+.activity-con-tab-r-list li i{  width: 60px; float: left; }
+.activity-con-tab-r-list li time{ width: 120px; float: left; text-align: center;}
+.txcen{text-align: center;}
 
-
-
-
-
+.activity-con-tab-l-news{ padding: 30px 16px 0; font-size: 14px; color: #666666; line-height: 24px;}
 
 
 
