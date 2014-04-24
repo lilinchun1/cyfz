@@ -309,7 +309,7 @@ a{-webkit-transition: all .3s ease-in-out 0s;-moz-transition: all .3s ease-in-ou
 .next-pre{ padding-top: 24px;}
 .next-pre a{ color: #666666;}
 .mgl320{ margin-left: 310px; display: inline;}
-.activity-con-tab-l-botm-news{ margin-top: 10px; width: 345px; float: left;}
+.activity-con-tab-l-botm-news{ margin: 10px 0 40px 0; width: 345px; float: left;}
 .activity-con-tab-l-botm-news em{ float: left; width: 162px; height: 122px; border: 1px solid #ccc;}
 .activity-con-tab-l-botm-news em img{ width: 160px; height: 120px; margin: 1px;}
 .activity-con-tab-l-botm-news figcaption{ padding-top: 10px;  }
@@ -325,3 +325,6 @@ a{-webkit-transition: all .3s ease-in-out 0s;-moz-transition: all .3s ease-in-ou
 .intro-rule h3{ font-size: 30px;text-align: center; font-weight: normal;}
 .intro-jianjie p{ margin-top: 30px; line-height: 26px; font-size: 14px;}
 .intro-rule p{ margin-top: 10px; line-height: 26px; font-size: 14px;}
+.intro-rule-con-tt{ margin: 0 10px; height: 116px; border-bottom: 1px solid #ccc;}
+.intro-rule-con-tt h3{ margin-top: 30px; font-size: 24px;text-align: center; font-weight: normal;}
+.intro-rule-con-tt time{ padding-top: 25px;text-align: center; display: block;}
