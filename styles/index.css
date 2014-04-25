@@ -171,7 +171,7 @@ a{-webkit-transition: all .3s ease-in-out 0s;-moz-transition: all .3s ease-in-ou
 
 .banner-top{ width: 1020px; height: 150px; margin: auto;}
 
-.sidebar-nav{ width: 240px;min-height: 400px; _height: 400px; float: left; background: #346eb4 url(../img/sidebar-navbg.png) 0 0 no-repeat;}
+.sidebar-nav{ width: 240px;min-height: 800px; _height: 800px; float: left; background: #346eb4 url(../img/sidebar-navbg.png) 0 0 no-repeat;}
 
 .two-col { margin: 10px 0 0 10px; width: 1000px; }
 .two-col .righ-wrap { position: relative; width: 100%; float: left; overflow: hidden;}
@@ -340,12 +340,15 @@ a{-webkit-transition: all .3s ease-in-out 0s;-moz-transition: all .3s ease-in-ou
 .intro-list li i{ margin: 12px 0 0 20px; width: 500px; height: 56px; overflow: hidden; line-height: 18px; float: left; color: #666666;}
 .intro-list li span{ margin-top: 20px; display: inline; float: right;}
 
-
-
-
-
-
-
+.connect-us { margin: 0 30px; }
+.map{ margin-top: 30px; display: inline; float: right; width: 428px; height: 457px; border:1px solid #999; background: url(../img/map.jpg) 0 0 no-repeat;}
+.connect-us ul{ padding: 30px 0 0 30px;}
+.connect-us li{ margin-bottom: 15px; width: 160px;}
+.connect-us li address{ margin-top: 6px; font-size: 14px;}
+.connect-us .connect-add{ font-size: 16px; color: #346eb4; font-weight: bold;font-family: "Arial";}
+.connect-us li address em{ font-size: 12px; color: #333333; font-weight: normal;}
+.connect-us li b{ position: relative;}
+.connect-us li b:before{content: ''; position: absolute; left: -18px; top: 6px; width: 6px; height: 6px; background: #ffcc00; display: block;box-shadow: 0 0 2px #fdde64; border-radius: 8px;}
 
 
 
