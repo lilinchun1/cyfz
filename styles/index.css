@@ -350,9 +350,40 @@ a{-webkit-transition: all .3s ease-in-out 0s;-moz-transition: all .3s ease-in-ou
 .connect-us li b{ position: relative;}
 .connect-us li b:before{content: ''; position: absolute; left: -18px; top: 6px; width: 6px; height: 6px; background: #ffcc00; display: block;box-shadow: 0 0 2px #fdde64; border-radius: 8px;}
 
+.structure-org{ margin: 0 10px; padding-bottom: 100px;}
+.structure-org h3{ margin-top: 30px; font-size: 30px; line-height: 30px; font-weight: normal;text-align: center;}
+.ball-big,
+.ball-small{border: 1px solid #3971b5; background: #e9e9e9; border-radius: 100%;box-shadow: 0 0 6px #d9d9d9;}
 
+.ball-big em,
+.ball-small em{ font-size: 18px; display: block;text-align: center;font-family: "SimHei"; }
+.ball-small em{ font-size: 16px;}
 
+.ball-big{ width: 105px; height: 105px; }
+.ball-small{ width: 74px; height: 74px;}
 
+.big-mg{margin: 40px 0 0 330px;}
+.sm-mg-ls { margin: 36px 0 0 344px;}
+.sm-mg-js{ margin: 5px 0 0 240px;}
+.sm-mg-hz { margin: 5px 0 0 344px;}
 
+.ball-small em{ margin-top: 26px;}
+.big-mg em{margin: 28px 0 0 0px;}
 
+.structure-org .group{ margin-top: 50px;}
+.float-l{ margin-right: 4px; display: inline; float: left;}
+.structure-org .mgt75{ padding-top: 75px;}
 
+.b-line{ position: relative;}
+.b-line:after{content: ''; position: absolute; bottom: -32px; left: 50%; height: 26px; border-right: 1px solid #346eb4;}
+
+.s-line{ position: relative;}
+.s-line:after{content: ''; position: absolute; bottom: -74px; left: 50%; height: 67px; border-right: 1px solid #346eb4;}
+
+.s-line-r{ position: relative;}
+.s-line-r:before{content: ''; position: absolute; top: 50%; right: -58px; width: 47px; border-top: 1px solid #346eb4;}
+
+.group .ball-small{ position: relative;}
+.group .ball-small:after{content: ''; position: absolute; top: -15px; left: 50%; height: 8px; border-right: 1px solid #346eb4;}
+.group { position: relative;}
+.group:after{content: ''; position: absolute; top: -18px; left: 40px; width: 636px; border-top: 1px solid #346eb4;}
