@@ -430,8 +430,25 @@ a{-webkit-transition: all .3s ease-in-out 0s;-moz-transition: all .3s ease-in-ou
 
 .resource-con-tt{height: 100px;}
 .resource-con-tt .home-con-time{ color: #999999; font-size: 12px; padding-top: 15px; float: left;}
+.serch{ height: 25px; margin:  6px 20px 0 0; display: inline; float: right; overflow: hidden; }
+.serch-input{ float: left; width: 110px; height: 23px; line-height: 23px; border: 1px solid #cccccc; border-right: 0 none;text-indent: 10px;}
+.serch-sub{ float: left;width: 58px; height: 24px;background: #346eb4; color: #ffffff; cursor: pointer;}
 
+.people-list-nav,
+.people-list-nav-zm{ margin:0 24px; height: 47px; line-height: 47px; border-bottom: 1px solid #ccc;}
+.people-list-nav a{ padding-right: 25px; font-size: 14px; color: #346eb4;}
+.people-list-nav .active,
+.people-list-nav a:hover{ color: #ff9900;}
 
+.resource-people-list-con{ margin:0 24px; padding-bottom: 120px;}
+.resource-people-list-con li{ margin: 30px 0 0 40px; display: inline; float: left; width: 278px; height: 98px; border: 1px solid #bfd0e6;}
+.resource-people-list-con li span{ margin: 7px 9px 0 7px; display: inline; width: 60px; height: 80px; float: left; overflow: hidden;}
+.resource-people-list-con li img{ width: 100%; height: 100%;}
+.resource-people-list-con li b{ min-width: 74px; _width: 74px; height: 30px; line-height: 30px; font-size: 14px; color: #000000; border-bottom: 1px solid #ccc; float: left;}
+.resource-people-list-con li em{ float: left; margin-top: 5px; display: inline; width: 190px; color: #666666; line-height: 18px;}
+.resource-people-list-con li i{ float: left;}
+.resource-people-list-con li i a{ color: #346eb4;}
 
-
-
+.people-list-nav-zm{ margin: 0 22px; color: #346eb4;}
+.people-list-nav-zm a{ padding: 5px;}
+.people-list-nav-zm a:hover{ background: #346eb4; color: #ffffff;}
