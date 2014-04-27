@@ -181,6 +181,7 @@ a{-webkit-transition: all .3s ease-in-out 0s;-moz-transition: all .3s ease-in-ou
 
 .sidebar-tt{ margin: 0 7px; height: 56px; border-bottom: 1px solid #cccccc; text-indent: -9999em; background: url(../img/sidebar-nav-tt.png) 0 0 no-repeat;}
 .intro-tt{ background-position: 0 -56px;}
+.resource-tt{background-position: 0 -113px;}
 .sidevar-listwrap{width: 240px; position: relative;}
 .sidebar-list{ margin-top: 20px; position: absolute; z-index: 2; width: 240px;}
 .sidebar-list li{ padding-bottom: 8px; padding-left: 30px; height: 34px; line-height: 34px; }
@@ -222,6 +223,11 @@ a{-webkit-transition: all .3s ease-in-out 0s;-moz-transition: all .3s ease-in-ou
 .icon-edit:after {content:"\e039";}
 .icon-site-map:after {content:"\e086";}
 .icon-library:after {content:"\e0d2";}
+.icon-clipboard-2:after {content:"\4a";}
+.icon-compass:after {content:"\e0ed";}
+.icon-profile-2:after {content:"\e091";}
+.icon-address-book:after {content:"\e08f";}
+.icon-address-book-2:after {content:"\e090";}
 @font-face {font-family: 'brankic1979';src:url('../fonts/brankic1979.eot');
     src:url('../fonts/brankic1979.eot?#iefix') format('embedded-opentype'),
     url('../fonts/brankic1979.svg#brankic1979') format('svg'),
@@ -327,6 +333,7 @@ a{-webkit-transition: all .3s ease-in-out 0s;-moz-transition: all .3s ease-in-ou
 .intro-rule p{ margin-top: 10px; line-height: 26px; font-size: 14px;}
 .intro-rule-con-tt{ margin: 0 10px; height: 116px; border-bottom: 1px solid #ccc;}
 .intro-rule-con-tt h3{ margin-top: 30px; font-size: 24px;text-align: center; font-weight: normal;}
+.intro-rule-con-tt h4{ margin-top: 10px; font-size: 12px;text-align: center; font-weight: normal; color: #999999;}
 .intro-rule-con-tt time{ padding-top: 25px;text-align: center; display: block;}
 .intro-list { margin: 0 24px; width: 692px; overflow: hidden;}
 .intro-list ul{ margin-top: -6px;}
@@ -421,8 +428,8 @@ a{-webkit-transition: all .3s ease-in-out 0s;-moz-transition: all .3s ease-in-ou
 .mgt130 { margin-top: 130px; }
 .mgt40{ margin-top: 30px;}
 
-
-
+.resource-con-tt{height: 100px;}
+.resource-con-tt .home-con-time{ color: #999999; font-size: 12px; padding-top: 15px; float: left;}
 
 
 
