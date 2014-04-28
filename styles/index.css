@@ -473,3 +473,25 @@ a{-webkit-transition: all .3s ease-in-out 0s;-moz-transition: all .3s ease-in-ou
 .company-con-hgroup h4{ float: left; margin: 6px 0 0 14px; color: #ffcc33; font-weight: normal;}
 .resource-company-list p{ margin: 6px 0 0 14px; float: left; width: 476px; height: 56px; overflow: hidden; line-height: 18px; color: #666666;}
 .chakan{ margin: 6px 30px 0 0; float: right;}
+
+.company-info-com{ margin: 0 24px;}
+.company-info-com header{ height: 100px; border-bottom: 1px solid #cccccc;}
+.company-info-com header h3{ padding-top: 30px; font-size: 24px;}
+.company-info-com header time{ margin-top: 6px; color: #999999; display: block;}
+.company-info-com header em{ margin-top: -10px; float: right;}
+.company-info-com header em a{ color: #346eb4;}
+
+.company-info-right{ padding-left: 30px;padding-bottom: 200px; margin-top: 26px; display: inline; width: 242px; float: right; border-left: 1px solid #cccccc;}
+.company-info-left{ margin-top: 26px; display: inline;  width: 416px; float: left; }
+
+.company-info-right-tt{ display: block; color: #346eb4;}
+.company-info-right span{ margin-top: 16px; width: 120px; height: 160px; display: block;}
+.company-info-right img{ width: 100%; height: 100%;}
+.company-info-right b{ margin-top: 12px; font-size: 14px; display: block;}
+.company-info-right i{ margin-top: 2px; display: block; color: #999999;}
+.company-info-right address{ margin-top: 5px; display: block;}
+.company-info-right .erweima{ width: 150px; height: 150px; display: block;}
+
+.company-info-left{ padding-bottom: 200px; line-height: 18px; color: #666666;}
+.company-info-left p{ padding: 10px 0;}
+.company-info-left b{ color: #346eb4;}
