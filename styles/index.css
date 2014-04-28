@@ -432,7 +432,7 @@ a{-webkit-transition: all .3s ease-in-out 0s;-moz-transition: all .3s ease-in-ou
 .resource-con-tt .home-con-time{ color: #999999; font-size: 12px; padding-top: 15px; float: left;}
 .serch{ height: 25px; margin:  6px 20px 0 0; display: inline; float: right; overflow: hidden; }
 .serch-input{ float: left; width: 110px; height: 23px; line-height: 23px; border: 1px solid #cccccc; border-right: 0 none;text-indent: 10px;}
-.serch-sub{ float: left;width: 58px; height: 24px;background: #346eb4; color: #ffffff; cursor: pointer;}
+.serch-sub{ float: left;width: 58px; height: 23px;background: #346eb4; color: #ffffff; cursor: pointer;}
 
 .people-list-nav,
 .people-list-nav-zm{ margin:0 24px; height: 47px; line-height: 47px; border-bottom: 1px solid #ccc;}
@@ -452,3 +452,24 @@ a{-webkit-transition: all .3s ease-in-out 0s;-moz-transition: all .3s ease-in-ou
 .people-list-nav-zm{ margin: 0 22px; color: #346eb4;}
 .people-list-nav-zm a{ padding: 5px;}
 .people-list-nav-zm a:hover{ background: #346eb4; color: #ffffff;}
+
+.company-tt{ margin: 0 24px; border-bottom: 1px solid #ccc;}
+.company-tt em{ float: left; padding-top: 18px; color: #346eb4;}
+.company-tt ul{ padding: 18px 0 10px 0; width: 600px; float: right;}
+.company-tt ul li{ margin-bottom: 10px; display: inline; height: 14px; float: left; white-space: nowrap; }
+.company-tt ul li a{ padding: 0 10px;  color: #666666;}
+
+.resource-company-list { padding: 25px 0 0 25px; }
+.resource-company-list li{ float: left; margin: 0 0 30px 30px; width: 626px; height: 160px; border: 1px solid #c0d1e6;}
+.company-pic { margin-top: 22px; display: inline; float: right; width: 110px; height: 120px; border-left: 1px solid #ccc;}
+.company-pic span{ margin-left: 26px; width: 60px; height: 80px; display: block;}
+.company-pic img{ width: 100%; height: 100%;}
+.company-pic b{  padding: 2px 0 0 26px; font-size: 14px; display: block;}
+.company-pic i{padding: 0 0 0 26px; color: #666666; display: block;}
+
+.company-con-hgroup{ width: 510px; float: left; overflow: hidden;   }
+.company-con-hgroup h3{ margin: 20px 0 0 14px; width: 510px; height: 16px; float: left;}
+.company-con-hgroup h3 a{ font-size: 14px;}
+.company-con-hgroup h4{ float: left; margin: 6px 0 0 14px; color: #ffcc33; font-weight: normal;}
+.resource-company-list p{ margin: 6px 0 0 14px; float: left; width: 476px; height: 56px; overflow: hidden; line-height: 18px; color: #666666;}
+.chakan{ margin: 6px 30px 0 0; float: right;}
