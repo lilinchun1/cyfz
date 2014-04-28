@@ -520,3 +520,6 @@ a{-webkit-transition: all .3s ease-in-out 0s;-moz-transition: all .3s ease-in-ou
 .orz-info i{ margin-top: 40px; float: right; width: 290px; height: 50px; overflow: hidden;}
 .orz-info b{ margin-top: 12px; display: inline; float: right;}
 .orz-info b a{ font-weight: normal; color: #ff6600;}
+
+.branch-nav{ height: 40px; line-height: 40px;}
+.branch-serch{ margin-top: 10px;}
