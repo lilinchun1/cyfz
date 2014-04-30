@@ -233,6 +233,9 @@ a{-webkit-transition: all .3s ease-in-out 0s;-moz-transition: all .3s ease-in-ou
 .icon-profile-2:after {content:"\e091";}
 .icon-address-book:after {content:"\e08f";}
 .icon-address-book-2:after {content:"\e090";}
+.icon-locked-2:after {content:"\e0aa";}
+.icon-smiley:after {content:"\28";}
+.icon-lamp-2:after {content:"\e01d";}
 @font-face {font-family: 'brankic1979';src:url('../fonts/brankic1979.eot');
     src:url('../fonts/brankic1979.eot?#iefix') format('embedded-opentype'),
     url('../fonts/brankic1979.svg#brankic1979') format('svg'),
@@ -552,3 +555,11 @@ a{-webkit-transition: all .3s ease-in-out 0s;-moz-transition: all .3s ease-in-ou
 .center-input{ width: 205px; height: 30px; border: 1px solid #999; box-shadow: 0 1px 4px #cfcfcf inset; text-indent: 10px; color: #346eb4; font-size: 14px;}
 .center-info-right p{ margin-bottom: 10px; line-height: 30px;}
 .center-info-right p label{ width: 60px; float: left;}
+
+.center-textarea{ margin-top: 20px; float: right; width: 394px; height: 180px;border: 1px solid #999; box-shadow: 0 1px 4px #cfcfcf inset; padding: 10px 20px;line-height: 18px; color: #666666;}
+.center-textarea2{ height: 136px;}
+.center-info-org label{ margin-top: 20px; margin-right: 20px; float: right; height: 30px; line-height: 30px;}
+.center-select{ margin-top: 20px; float: left;width: 114px; height: 28px;border: 1px solid #999; box-shadow: 0 1px 4px #cfcfcf inset;}
+.center-p{ float: left; width: 100%; height: 30px;}
+.center-p label{ margin-left: 204px; display: inline; width: 60px; float: left;}
+.center-submit{ margin-top: 34px; display: inline; width: 177px; height: 37px; float: right; cursor: pointer; background: url(../img/btn.png) 0 0 no-repeat;}
