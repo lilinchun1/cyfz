@@ -79,7 +79,7 @@ a{-webkit-transition: all .3s ease-in-out 0s;-moz-transition: all .3s ease-in-ou
 .fullSlide .next{ left:auto; right:20%; background-position:0 -64px; }
 
 /*container*/
-.container{ position: relative; z-index: 10; width: 1022px; margin: -23px auto 0; clear: both;}
+.container{ position: relative; z-index: 1; width: 1022px; margin: -23px auto 0; clear: both;}
 .container:before{content: ''; position: absolute; top: 23px; left: -33px; width: 33px; height: 420px; display: block; background: url(../img/shadow.jpg) 0 0 no-repeat;}
 .container:after { content: '';position: absolute; top: 23px; right: -33px; width: 33px; height: 420px; display: block; background: url(../img/shadow.jpg) 0 -420px no-repeat; }
 .pj{ height: 136px; background: url(../img/pj-bj.jpg) repeat-x;}
@@ -563,3 +563,11 @@ a{-webkit-transition: all .3s ease-in-out 0s;-moz-transition: all .3s ease-in-ou
 .center-p{ float: left; width: 100%; height: 30px;}
 .center-p label{ margin-left: 204px; display: inline; width: 60px; float: left;}
 .center-submit{ margin-top: 34px; display: inline; width: 177px; height: 37px; float: right; cursor: pointer; background: url(../img/btn.png) 0 0 no-repeat;}
+.left-xgpass{ width: 160px; height: 200px; float: left;}
+.change-pass-sub{ margin-left: 100px; float: left;}
+
+.yanzheng{ width: 90px; float: left;}
+.yanzheng-pic{ float: left; width: 60px; height: 30px;}
+.yanzheng-pic img{ width: 100%; height: 100%;}
+.yanzheng-button{  background: #ffffff; cursor: pointer;}
+.wangjimima{ position: relative; top: 80px; left: -60px;}

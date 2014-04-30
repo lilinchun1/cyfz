@@ -8,7 +8,7 @@
     <script src="js/html5shiv-printshiv.min.js"></script>
     <![endif]-->
     <style>
-        .sidebar-list .sidebar-list-active { top: 0;}/*侧边栏滑动条起始位置*/
+        .sidebar-list .sidebar-list-active { top: 84px;}/*侧边栏滑动条起始位置*/
     </style>
 </head>
 <body>
@@ -107,9 +107,9 @@
                         </div>
                         <div class="sidevar-listwrap">
                             <ul class="sidebar-list">
-                                <li class="sidebar-list-li"><span class="icon icon-smiley"></span><a href="">我的资料</a></li>
+                                <li><span class="icon icon-smiley"></span><a href="">我的资料</a></li>
                                 <li><span class="icon icon-lamp-2"></span><a href="">我的活动</a></li>
-                                <li><span class="icon icon-locked-2"></span><a href="">修改密码</a></li>
+                                <li class="sidebar-list-li"><span class="icon icon-locked-2"></span><a href="">修改密码</a></li>
                                 <li class="sidebar-list-active"></li>
                             </ul>
                         </div>
@@ -120,83 +120,34 @@
                     <section class="all-activity-list">
                         <div class="activity-tt">
                             <span></span>
-                            <h2>我的资料</h2>
+                            <h2>会员登录</h2>
                         </div>
                         <section class="center-info cf">
-                            <b class="center-info-tt">个人基本信息</b>
-                            <div class="center-info-left">
-                                <span><img src="img/people.png" alt=""/></span>
-                                <form action="">
-                                    <input type="button" value="修改" class="picture-change"/>
-                                </form>
-                                <i>个人信息二维码</i>
-                                <div class="center-info-left-wx">
-                                    <img src="img/weixin.gif" alt=""/>
-                                </div>
-                                <form action="">
-                                    <input type="button" value="保存二维码" class="save-wx"/>
-                                </form>
-                            </div>
+                            <b class="center-info-tt">修改密码</b>
+                            <div class="left-xgpass"></div>
                             <div class="center-info-right">
-                                <em>创发会职务：副会长兼文体部部长</em>
+
                                 <div class="bk20"></div>
                                 <form action="">
                                 <p>
-                                    <label for="p-name">姓&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;名</label><input type="text" name="p-name" id="p-name" class="center-input"/>
+                                    <label for="p-name">会&nbsp;&nbsp;员&nbsp;&nbsp;名</label>
+                                    <input type="text" name="p-name" id="p-name" class="center-input"/>
                                 </p>
                                 <p>
-                                    <label for="c-name">公司名称</label><input type="text" name="c-name" id="c-name" class="center-input"/>
+                                    <label for="c-name">密&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;码</label><input type="text" name="c-name" id="c-name" class="center-input"/>
                                 </p>
                                 <p>
-                                    <label for="j-name">公司职务</label><input type="text" name="j-name" id="j-name" class="center-input"/>
+                                    <label for="j-name">验&nbsp;&nbsp;证&nbsp;&nbsp;码</label>
+                                    <input type="text" name="j-name" id="j-name" class="center-input yanzheng"/>
+                                    <span class="yanzheng-pic"><img src="img/num.png" alt=""/></span>
+                                    <button class="yanzheng-button">换一组</button>
                                 </p>
-                                <p>
-                                    <label for="phone">电&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;话</label><input type="text" name="phone" id="phone" class="center-input"/>
-                                </p>
-                                <p>
-                                    <label for="mobile">手&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;机</label><input type="text" name="mobile" id="mobile" class="center-input"/>
-                                </p>
-                                <p>
-                                    <label for="weixin">微&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;信</label><input type="text" name="weixin" id="weixin" class="center-input"/>
-                                </p>
-                                <p>
-                                    <label for="qq">Q&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;Q</label><input type="text" name="qq" id="qq" class="center-input"/>
-                                </p>
-                                <p>
-                                    <label for="email">邮&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;件</label><input type="text" name="email" id="email" class="center-input"/>
-                                </p>
-                                <p>
-                                    <label for="url">网&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;址</label><input type="text" name="url" id="url" class="center-input"/>
-                                </p>
-                                <p>
-                                    <label for="org-address">公司地址</label><input type="text" name="org-address" id="org-address" class="center-input"/>
-                                </p>
-                             </div>
-                        </section>
-                        <section class="center-info-org cf">
-                            <b class="center-info-tt">公司基本信息</b>
-                            <p>
-                                <textarea class="center-textarea" id="org-texarea"></textarea>
-                                <label for="org-texarea">公司介绍</label>
-                            </p>
-                            <p>
-                                <textarea class="center-textarea" id="cp-texarea"></textarea>
-                                <label for="cp-texarea">产品与服务</label>
-                            </p>
-                            <p class="center-p">
-                                <label>服务属性</label>
-                                <select class="center-select">
-                                    <option value ="volvo">Volvo</option>
-                                    <option value ="saab">Saab</option>
-                                    <option value="opel">Opel</option>
-                                    <option value="audi">Audi</option>
-                                </select>
-                            </p>
-                            <input type="submit" value="" class="center-submit"/>
+                                <input type="submit" value="" class="center-submit change-pass-sub"/>
+                                    <a class="wangjimima" href="">忘记密码</a>
+                            </div>
                             </form>
-                            <div class="bk20"></div>
-                            <div class="bk30"></div>
                         </section>
+
                     </section>
                 </div>
             </div>
