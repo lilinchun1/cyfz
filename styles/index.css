@@ -564,10 +564,20 @@ a{-webkit-transition: all .3s ease-in-out 0s;-moz-transition: all .3s ease-in-ou
 .center-p label{ margin-left: 204px; display: inline; width: 60px; float: left;}
 .center-submit{ margin-top: 34px; display: inline; width: 177px; height: 37px; float: right; cursor: pointer; background: url(../img/btn.png) repeat-x; color: #ffffff; font-size: 16px;font-family: "Microsoft Yahei"; }
 .left-xgpass{ width: 160px; height: 200px; float: left;}
-.change-pass-sub{ margin-left: 100px; float: left;}
+.change-pass-sub{ margin-left: 90px; float: left;}
 
 .yanzheng{ width: 90px; float: left;}
 .yanzheng-pic{ float: left; width: 60px; height: 30px;}
 .yanzheng-pic img{ width: 100%; height: 100%;}
 .yanzheng-button{  background: #ffffff; cursor: pointer;}
 .wangjimima{ position: relative; top: 80px; left: -60px;}
+
+.wrap500{ width: 500px; height: 500px;}
+.denglu500{ width: 100%; float: left; background: url(../img/list-bg.jpg) 0 40px repeat-x;}
+.peop-date{ margin: 0 50px; padding-top: 16px;}
+.peop-date h2{ margin-bottom: 15px; font-size: 18px; font-weight: normal;}
+.peop-date p{ margin-bottom: 10px;}
+.peop-date-tt{ position: absolute; top: -8px; left: 35px; padding: 0 5px; height: 14px; line-height: 14px; color: #346eb4; background: #fdfdfd;  }
+.peop-date em{ color: #ff6600; font-weight: bold;}
+.center-info-right .mgl110{ margin-left: 110px;}
+.center-info-right .succeed{ height: 224px; line-height: 224px;text-align: center; font-size: 24px;}
