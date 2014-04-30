@@ -562,7 +562,7 @@ a{-webkit-transition: all .3s ease-in-out 0s;-moz-transition: all .3s ease-in-ou
 .center-select{ margin-top: 20px; float: left;width: 114px; height: 28px;border: 1px solid #999; box-shadow: 0 1px 4px #cfcfcf inset;}
 .center-p{ float: left; width: 100%; height: 30px;}
 .center-p label{ margin-left: 204px; display: inline; width: 60px; float: left;}
-.center-submit{ margin-top: 34px; display: inline; width: 177px; height: 37px; float: right; cursor: pointer; background: url(../img/btn.png) 0 0 no-repeat;}
+.center-submit{ margin-top: 34px; display: inline; width: 177px; height: 37px; float: right; cursor: pointer; background: url(../img/btn.png) repeat-x; color: #ffffff; font-size: 16px;font-family: "Microsoft Yahei"; }
 .left-xgpass{ width: 160px; height: 200px; float: left;}
 .change-pass-sub{ margin-left: 100px; float: left;}
 
