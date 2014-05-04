@@ -566,7 +566,7 @@ a{-webkit-transition: all .3s ease-in-out 0s;-moz-transition: all .3s ease-in-ou
 .center-textarea{ margin-top: 20px; float: right; width: 394px; height: 180px;border: 1px solid #999; box-shadow: 0 1px 4px #cfcfcf inset; padding: 10px 20px;line-height: 18px; color: #666666;}
 .center-textarea2{ height: 136px;}
 .center-info-org label{ margin-top: 20px; margin-right: 20px; float: right; height: 30px; line-height: 30px;}
-.center-select{ margin-top: 20px; float: left;width: 114px; height: 28px;border: 1px solid #999; box-shadow: 0 1px 4px #cfcfcf inset;}
+.center-select{ padding-top: 4px; margin-top: 20px; float: left;width: 114px; height: 28px;border: 1px solid #999; box-shadow: 0 1px 4px #cfcfcf inset;}
 .center-p{ float: left; width: 100%; height: 30px;}
 .center-p label{ margin-left: 204px; display: inline; width: 60px; float: left;}
 .center-submit{ margin-top: 34px; display: inline; width: 177px; height: 37px; float: right; cursor: pointer; background: url(../img/btn.png) repeat-x; color: #ffffff; font-size: 16px;font-family: "Microsoft Yahei"; }
