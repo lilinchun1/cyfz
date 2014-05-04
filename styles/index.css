@@ -355,9 +355,10 @@ a{-webkit-transition: all .3s ease-in-out 0s;-moz-transition: all .3s ease-in-ou
 .intro-list li h3{ margin: 30px 0 0 20px; display: inline; float: left;
     width: 440px; height: 18px; line-height: 18px; overflow: hidden; }
 .intro-list li h3 a{ font-size: 16px;}
-.intro-list li time{ position: absolute; top: 40px; right: 0; color: #999999;}
+.intro-list li h4{ margin: 8px 0 0 20px; font-size: 12px; font-weight: normal; float: left;}
+.intro-list li time{ position: absolute; top: 50px; right: 0; color: #999999;}
 .intro-list li i{ margin: 12px 0 0 20px; width: 500px; height: 56px; overflow: hidden; line-height: 18px; float: left; color: #666666;}
-.intro-list li span{ margin-top: 20px; display: inline; float: right;}
+.intro-list li span{ margin-top: 10px; display: inline; float: right;}
 
 .connect-us { margin: 0 30px; }
 .map{ margin-top: 30px; display: inline; float: right; width: 428px; height: 457px; border:1px solid #999; background: url(../img/map.jpg) 0 0 no-repeat;}
@@ -453,7 +454,7 @@ a{-webkit-transition: all .3s ease-in-out 0s;-moz-transition: all .3s ease-in-ou
 .people-list-nav a:hover{ color: #ff9900;}
 
 .resource-people-list-con{ margin:0 24px; padding-bottom: 120px;}
-.resource-people-list-con li{ margin: 30px 0 0 40px; display: inline; float: left; width: 278px; height: 98px; border: 1px solid #bfd0e6;}
+.resource-people-list-con li{ margin: 30px 0 0 40px; display: inline; float: left; width: 278px; height: 98px; border: 2px solid #bfd0e6;}
 .resource-people-list-con li span{ margin: 7px 9px 0 7px; display: inline; width: 60px; height: 80px; float: left; overflow: hidden;}
 .resource-people-list-con li img{ width: 100%; height: 100%;}
 .resource-people-list-con li b{ min-width: 74px; _width: 74px; height: 30px; line-height: 30px; font-size: 14px; color: #000000; border-bottom: 1px solid #ccc; float: left;}
@@ -464,12 +465,14 @@ a{-webkit-transition: all .3s ease-in-out 0s;-moz-transition: all .3s ease-in-ou
 .people-list-nav-zm{ margin: 0 22px; color: #346eb4;}
 .people-list-nav-zm a{ padding: 5px;}
 .people-list-nav-zm a:hover{ background: #346eb4; color: #ffffff;}
+.people-list-nav-active{background: #346eb4;color: #ffffff;}
 
 .company-tt{ margin: 0 24px; border-bottom: 1px solid #ccc;}
 .company-tt em{ float: left; padding-top: 18px; color: #346eb4;}
 .company-tt ul{ padding: 18px 0 10px 0; width: 600px; float: right;}
 .company-tt ul li{ margin-bottom: 10px; display: inline; height: 14px; float: left; white-space: nowrap; }
 .company-tt ul li a{ padding: 0 10px;  color: #666666;}
+.company-tt .company-tt-nav-active a { color: #fcb03b; font-weight: bold; }
 
 .resource-company-list { padding: 25px 0 0 25px; }
 .resource-company-list li{ float: left; margin: 0 0 30px 30px; width: 626px; height: 160px; border: 1px solid #c0d1e6;}
