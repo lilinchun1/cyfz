@@ -497,7 +497,7 @@ a{-webkit-transition: all .3s ease-in-out 0s;-moz-transition: all .3s ease-in-ou
 .company-info-com header em a{ color: #346eb4;}
 
 .company-info-right{ padding-left: 30px;padding-bottom: 200px; margin-top: 26px; display: inline; width: 242px; float: right; border-left: 1px solid #cccccc;}
-.company-info-left{ margin-top: 26px; display: inline;  width: 416px; float: left; }
+.company-info-left{ padding-right: 16px; margin-top: 26px; display: inline;  width: 400px; float: left; }
 
 .company-info-right-tt{ display: block; color: #346eb4;}
 .company-info-right span{ margin-top: 16px; width: 120px; height: 160px; display: block;}
