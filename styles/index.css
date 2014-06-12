@@ -5,7 +5,7 @@
 body		{ font-size:12px; font-family: "Microsoft Yahei","SimHei"; background-color:#fff; }
 ol,ul,li	{ list-style-type:none; margin:0; padding:0;}
 a			{ text-decoration:none; color:#666;}
-a:hover		{ color:#346eb4;}
+a:hover		{ color:#ffcc00;}
 i,em,strong,span,address		{ font-style:normal;}
 h1,h2		{ font-size:14px;}
 h3,h4		{ font-size:12px;}
@@ -69,9 +69,10 @@ a{-webkit-transition: all .3s ease-in-out 0s;-moz-transition: all .3s ease-in-ou
 .main-nav-center li { float: left; }
 .main-nav-center li a{ padding: 0 36px; height: 15px; border-right: 1px solid #557ba7; font-size: 14px; color: #fff;text-shadow: 0 0 2px rgba(241,247,241,.8);text-decoration: none;}
 .main-nav-center li:last-child a{ border-right:0 none;}
-.main-nav-center li a:hover{color:#ff6600;text-shadow: 0 0 1px rgba(255,102,0,.8); }
+.main-nav-center li a:hover{color:#ffcc00;text-shadow: 0 0 1px rgba(255,102,0,.8); }
 .main-nav-center .bdn,
 .pj .bdn{ border: 0 none;}
+.main-nav-center .active a{color:#ffcc00}/*主导航 聚焦颜色*/
 /*slide*/
 .fullSlide{ width:100%; position: relative;height:390px; background:#010205;  }
 .fullSlide .bd{ margin:0 auto;    }
@@ -154,7 +155,7 @@ a{-webkit-transition: all .3s ease-in-out 0s;-moz-transition: all .3s ease-in-ou
 .resource,
 .blogroll{ margin: -20px 0 0 10px; width: 1002px; float: left;}
 .resource-list{ margin: 20px 5px 0 15px; width: 104px; height: 140px; float: left; overflow: hidden; _margin-left: 12px;}
-.resource-list em{ width: 100px; height: 75px; border: 2px solid #ccc; display: block;}
+.resource-list em{ width: 100px; height: 75px; border: 2px solid #ccc; display: block; overflow: hidden;}
 .resource-list figcaption{ padding-top: 8px; width: 104px; color: #666666; font-weight: bold;font-family: "simsun"; line-height: 18px;}
 
 .blogroll{ margin-top: 20px;}
@@ -259,7 +260,7 @@ a{-webkit-transition: all .3s ease-in-out 0s;-moz-transition: all .3s ease-in-ou
 
 .all-activity-list-con{ margin: 0 25px;}
 .all-activity-list-con li{ position: relative; height: 210px; border-bottom: 1px solid #ccc;}
-.all-activity-list-con li em{ margin-top: 30px; display: inline; float: left; width: 200px; height: 150px; border: 1px solid #ccc;}
+.all-activity-list-con li em{ margin-top: 30px; display: inline; float: left; width: 200px; height: 150px; border: 1px solid #ccc; overflow: hidden;}
 .all-activity-list-con li hgroup{ display: block;}
 .all-activity-list-con li h2{ float: left; margin: 30px 0 0 20px; display: inline; width: 360px; height: 18px; line-height: 18px; overflow: hidden;}
 .all-activity-list-con li h2 a{ font-size: 16px; font-weight: bold;}
