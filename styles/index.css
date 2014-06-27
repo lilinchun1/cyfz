@@ -356,7 +356,7 @@ a{-webkit-transition: all .3s ease-in-out 0s;-moz-transition: all .3s ease-in-ou
 .intro-list li h3{ margin: 30px 0 0 20px; display: inline; float: left;
     width: 440px; height: 18px; line-height: 18px; overflow: hidden; }
 .intro-list li h3 a{ font-size: 16px;}
-.intro-list li h4{ margin: 8px 0 0 20px; font-size: 12px; font-weight: normal; float: left;}
+.intro-list li h4{ margin: 8px 0 0 20px;width: 60%;height: 14px;line-height: 14px; overflow: hidden; font-size: 12px; font-weight: normal; float: left;}
 .intro-list li time{ position: absolute; top: 50px; right: 0; color: #999999;}
 .intro-list li i{ margin: 12px 0 0 20px; width: 500px; height: 56px; overflow: hidden; line-height: 18px; float: left; color: #666666;}
 .intro-list li span{ margin-top: 10px; display: inline; float: right;}
