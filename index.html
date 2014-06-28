@@ -48,7 +48,7 @@
                 </a>
             </li>
             <li class="J_wx">
-                <a href="">
+                <a href="javascript:AddFavorite(window.location,document.title);returnfalse;" >
                     <figure>
                         <span class="top-center-smlogo smlogo4"></span>
                         <figcaption>
@@ -57,11 +57,23 @@
                     </figure>
                 </a>
             </li>
-            <div class="wei-xin">
+            <div class="wei-xin wei-xin2">
                 <em></em>
                 <span></span>
                 <img src="img/weixin.gif" alt=""/>
                 <i>扫描二维码<a class="wei-xin-link">微信号:DLCFH</a></i>
+            </div>
+            <div class="wei-xin wei-xin3">
+                <em></em>
+                <span></span>
+                <img src="img/weixin.gif" alt=""/>
+                <i>扫描二维码<a class="wei-xin-link">点击下载</a></i>
+            </div>
+            <div class="wei-xin wei-xin4">
+                <em></em>
+                <span></span>
+                <img src="img/weixin.gif" alt=""/>
+                <i>扫描二维码<a class="wei-xin-link">点击下载</a></i>
             </div>
         </ul>
 
@@ -519,20 +531,48 @@
         }
     });
     jQuery(".picScroll-left").slide({titCell:".hd ul",mainCell:".bd ul",autoPage:true,effect:"leftLoop",autoPlay:true,vis:4,trigger:"click"});
-    $(document).ready(function(){
-        $('.J_wx').mouseover(function(){
-           $('.wei-xin').show();
+
+    /*头部显示二维码*/
+    $(function(){
+        $('.J_wx:eq(0)').mouseover(function(){
+                $('.wei-xin2').show();
+        });
+        $('.J_wx:eq(1)').mouseover(function(){
+                $('.wei-xin3').show();
+        });
+        $('.J_wx:eq(2)').mouseover(function(){
+                $('.wei-xin4').show();
+        });
+
+        $('.J_wx:eq(0)').mouseout(function(){
+            $('.wei-xin2').hide();
+        });
+        $('.J_wx:eq(1)').mouseout(function(){
+            $('.wei-xin3').hide();
+        });
+        $('.J_wx:eq(2)').mouseout(function(){
+            $('.wei-xin4').hide();
         });
         $('.wei-xin').mouseover(function(){
-            $('.wei-xin').show();
-        });
-        $('.J_wx').mouseout(function(){
-            $('.wei-xin').hide();
+            $(this).show();
         });
         $('.wei-xin').mouseout(function(){
-            $('.wei-xin').hide();
+            $(this).hide();
         });
     });
+/*加入收藏夹*/
+    function AddFavorite(sURL, sTitle) {
+        try {
+            window.external.addFavorite(sURL, sTitle);
+        } catch (e) {
+            try {
+                window.sidebar.addPanel(sTitle, sURL, "");
+            } catch (e) {
+                alert("加入收藏失败，请使用Ctrl+D进行添加");
+            }
+        }
+    }
 </script>
+
 </body>
 </html>
