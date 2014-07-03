@@ -149,9 +149,9 @@
                             </address>
                             <p><b>人数限制：</b>60人 <span>已报名65人</span> <span>已签到60人</span></p>
 
-                            <form action="">
-                                <button class="btn-act-end" type="submit"></button>
-                            </form>
+
+                                <button class="btn-act-end" type="submit" id="j-win-bm"></button>
+
                         </section>
                         <section class="activity-con-tab">
                             <div class="slideTxtBox">
@@ -412,6 +412,22 @@
 </footer>
 <script type="text/javascript" src="js/jquery1.42.min.js"></script>
 <script type="text/javascript" src="js/jquery.SuperSlide.2.1.1.js"></script>
+<!--弹窗插件-->
+<script src="js/layer/layer.min.js"></script>
+<script>
+    $('#j-win-bm').on('click', function(){
+        $.layer({
+            type: 2,
+            title: false,
+            maxmin: false,
+            shadeClose: true, //开启点击遮罩关闭层
+            area : ['500px' , '500px'],
+            offset : ['100px', ''],
+            iframe: {src: 'activity-win-info.html'}
+        });
+    });
+</script>
+<!--弹窗插件 end-->
 <script type="text/javascript">
     jQuery(".slideTxtBox").slide({effect:"fold",delayTime:0});
     $(document).ready(function(){
