@@ -282,7 +282,11 @@ a{-webkit-transition: all .3s ease-in-out 0s;-moz-transition: all .3s ease-in-ou
 #pagenav li { padding: 5px 10px; text-decoration: none;}
 #pagenav li:hover{background: #346eb4; color: #ffffff; cursor: pointer;}
 .current {background: #346eb4; color: #ffffff;}
-.page_txt:hover{
+#pagenav a{
+    -webkit-transition: all 0s ease-in-out 0s;-moz-transition: all 0s ease-in-out 0s;-ms-transition: all 0s ease-in-out 0s;
+    -o-transition: all 0s ease-in-out 0s;transition: all 0s ease-in-out 0s;
+    display: block;}
+#pagenav li:hover a{
     color: #ffffff;}
 .cf-zoom{zoom: 0;}
 
