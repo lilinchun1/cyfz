@@ -253,7 +253,7 @@ a{-webkit-transition: all .3s ease-in-out 0s;-moz-transition: all .3s ease-in-ou
 /*活动中心列表页*/
 .all-activity-list{ width: 740px; float: right; background: url(../img/list-bg.jpg) 0 40px repeat-x;}
 .all-activity-list-tt { height: 40px; line-height: 40px; background: url(../img/com_tt.gif) repeat-x; }
-.all-activity-list-nav{ margin: 0 24px; line-height: 46px; border-bottom: 1px solid #ccc;}
+.all-activity-list-nav{ margin: 0 24px; line-height: 24px;  border-bottom: 1px solid #ccc; }
 .all-activity-list-nav a{ padding: 0 26px 0 4px; font-size: 14px; color: #346eb4;}
 .all-activity-list-nav a:hover{ color: #ff9900;}
 .all-activity-list-nav .active{ color: #ff9900;}
@@ -261,6 +261,8 @@ a{-webkit-transition: all .3s ease-in-out 0s;-moz-transition: all .3s ease-in-ou
 .all-activity-list-con{ margin: 0 25px;}
 .all-activity-list-con li{ position: relative; height: 210px; border-bottom: 1px solid #ccc;}
 .all-activity-list-con li em{ margin-top: 30px; display: inline; float: left; width: 200px; height: 150px; border: 1px solid #ccc; overflow: hidden;}
+.all-activity-list-con li img{
+    width: 100%;}
 .all-activity-list-con li hgroup{ display: block;}
 .all-activity-list-con li h2{ float: left; margin: 30px 0 0 20px; display: inline; width: 360px; height: 18px; line-height: 18px; overflow: hidden;}
 .all-activity-list-con li h2 a{ font-size: 16px; font-weight: bold;}
@@ -304,6 +306,8 @@ a{-webkit-transition: all .3s ease-in-out 0s;-moz-transition: all .3s ease-in-ou
 .activity-con-info p span{ padding: 0 8px; font-weight: bold; color: #346eb4; background: #fff; }
 
 .btn-act-end{ margin-top: 16px; width: 148px; height: 40px; border: 1px solid #8c8c8c; background: url(../img/btn-act-end.jpg) 0 0 no-repeat; border-radius: 3px;box-shadow: -1px 1px 3px #cbcbcb;}
+
+.btn-act{ margin-top: 16px; width: 148px; height: 40px; border: 1px solid #8c8c8c; background: url(../img/btn-act.jpg) 0 0 no-repeat; border-radius: 3px;box-shadow: -1px 1px 3px #cbcbcb;}
 
 .activity-con-tab{ margin:40px 24px 0 24px;}
 .slideTxtBox .hd{ height: 34px; border-bottom: 1px solid #ccc;}
@@ -365,9 +369,11 @@ a{-webkit-transition: all .3s ease-in-out 0s;-moz-transition: all .3s ease-in-ou
 .intro-list li h3 a{ font-size: 16px;}
 .intro-list li h4{ margin: 8px 0 0 20px;width: 60%;height: 14px;line-height: 14px; overflow: hidden; font-size: 12px; font-weight: normal; float: left;}
 .intro-list li time{ position: absolute; top: 30px; right: 0; color: #999999;}
-.intro-list li i{ margin: 12px 0 0 20px; width: 500px; height: 56px; overflow: hidden; line-height: 18px; float: left; color: #666666;}
+.intro-list li i{ margin: 12px 0 0 20px; width: 500px; height: 38px; overflow: hidden; line-height: 18px; float: left; color: #666666;}
 .intro-list li span{ margin-top: 10px; display: inline; float: right;}
-
+.intro-list li span a{
+    color: #346fb3;}
+.intro-list li span a:hover{text-decoration: underline;}
 .connect-us { margin: 0 30px; }
 .map{ margin-top: 30px; display: inline; float: right; width: 428px; height: 457px; border:1px solid #999; background: url(../img/map.jpg) 0 0 no-repeat;}
 .connect-us ul{ padding: 30px 0 0 30px;}
