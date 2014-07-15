@@ -307,7 +307,7 @@ a{-webkit-transition: all .3s ease-in-out 0s;-moz-transition: all .3s ease-in-ou
 
 .btn-act-end{ margin-top: 16px; width: 148px; height: 40px; background: url(../img/btn-act-end.jpg) 0 0 no-repeat; border-radius: 3px;box-shadow: -1px 1px 3px #cbcbcb;}
 
-.btn-act{ margin-top: 16px; width: 148px; height: 40px; border: 1px solid #8c8c8c; background: url(../img/btn-act.jpg) 0 0 no-repeat; border-radius: 3px;box-shadow: -1px 1px 3px #cbcbcb;}
+.btn-act{ margin-top: 16px; width: 148px; height: 40px; background: url(../img/btn-act.jpg) 0 0 no-repeat; border-radius: 3px;box-shadow: -1px 1px 3px #cbcbcb;}
 
 .activity-con-tab{ margin:40px 24px 0 24px;}
 .slideTxtBox .hd{ height: 34px; border-bottom: 1px solid #ccc;}
