@@ -305,9 +305,9 @@ a{-webkit-transition: all .3s ease-in-out 0s;-moz-transition: all .3s ease-in-ou
 .activity-con-info address{ width: 460px; margin-bottom: 10px; display: inline;height: 14px; line-height: 14px; float: left; overflow: hidden;}
 .activity-con-info p span{ padding: 0 8px; font-weight: bold; color: #346eb4; background: #fff; }
 
-.btn-act-end{ margin-top: 16px; width: 148px; height: 40px; border: 1px solid #8c8c8c; background: url(../img/btn-act-end.jpg) 0 0 no-repeat; border-radius: 3px;box-shadow: -1px 1px 3px #cbcbcb;}
+.btn-act-end{ margin-top: 16px; width: 148px; height: 40px; background: url(../img/btn-act-end.jpg) 0 0 no-repeat; border-radius: 3px;box-shadow: -1px 1px 3px #cbcbcb; cursor: pointer;}
 
-.btn-act{ margin-top: 16px; width: 148px; height: 40px; border: 1px solid #8c8c8c; background: url(../img/btn-act.jpg) 0 0 no-repeat; border-radius: 3px;box-shadow: -1px 1px 3px #cbcbcb;}
+.btn-act{ margin-top: 16px; width: 148px; height: 40px; background: url(../img/btn-act.jpg) 0 0 no-repeat; border-radius: 3px;box-shadow: -1px 1px 3px #cbcbcb; cursor: pointer;}
 
 .activity-con-tab{ margin:40px 24px 0 24px;}
 .slideTxtBox .hd{ height: 34px; border-bottom: 1px solid #ccc;}
@@ -499,10 +499,11 @@ a{-webkit-transition: all .3s ease-in-out 0s;-moz-transition: all .3s ease-in-ou
 .company-con-hgroup{ width: 510px; float: left; overflow: hidden;   }
 .company-con-hgroup h3{ margin: 20px 0 0 14px; width: 510px; height: 16px; float: left;}
 .company-con-hgroup h3 a{ font-size: 14px;}
-.company-con-hgroup h4{ float: left; margin: 6px 0 0 14px; color: #ffcc33; font-weight: normal;}
+.company-con-hgroup h4{ float: left; margin: 6px 0 0 14px; height: 17px; line-height: 17px; color: #ffcc33; font-weight: normal; overflow: hidden;}
 .resource-company-list p{ margin: 6px 0 0 14px; float: left; width: 476px; height: 56px; overflow: hidden; line-height: 18px; color: #666666;}
 .chakan{ margin: 6px 30px 0 0; float: right;}
-
+.chakan a{
+    color: #346eb4;}
 .company-info-com{ margin: 0 24px;}
 .company-info-com header{ height: 100px; border-bottom: 1px solid #cccccc;}
 .company-info-com header h3{ padding-top: 30px; font-size: 24px;}
