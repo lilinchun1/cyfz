@@ -50,7 +50,7 @@ a{-webkit-transition: all .3s ease-in-out 0s;-moz-transition: all .3s ease-in-ou
 .wei-xin img,
 .wei-xin i{ margin: 9px 0 0 9px;}
 .wei-xin i{ margin-top: 6px; height: 14px; line-height: 14px; display: block; color: #669933;}
-.wei-xin-link{ padding-left: 4px; margin-left: 5px; border-left: 1px solid #ccc; color: #3399cc;}
+.wei-xin-link{ padding-left: 4px; margin-left: 5px; border-left: 1px solid #ccc; color: #3399cc;cursor: pointer;}
 .wei-xin-link:hover{text-decoration: none;}
 .wei-xin em,
 .wei-xin span{ position: absolute; top: -20px; right: 14px; width: 0; height: 0;border: 10px transparent solid; border-bottom:10px #b0c586 solid; _display: none; }
@@ -199,8 +199,10 @@ a{-webkit-transition: all .3s ease-in-out 0s;-moz-transition: all .3s ease-in-ou
 .sidebar-list-active::after{ content: ''; position: absolute; bottom: -8px; right: 0; width: 0; height: 0; display: block; border: 4px solid transparent; border-top: 4px solid #3a5a82; border-left: 4px solid #3a5a82;}
 .sidebar-list li span{ margin: 6px 12px 0 0; display: inline; float: left;}
 .sidebar-list .sidebar-list-li a{ color: #346eb4;}
+.sidebar-list:hover .sidebar-list-li a:hover{
+    color: #346eb4;}
 /*侧边栏滑过*/
-.sidebar-list:hover  .sidebar-list-li a{ color: #fff;color: #346eb4\9;}
+.sidebar-list:hover .sidebar-list-li a{ color: #fff;color: #346eb4\9;}
 .sidebar-list li:nth-child(1):hover a,
 .sidebar-list li:nth-child(2):hover a,
 .sidebar-list li:nth-child(3):hover a,
@@ -603,3 +605,6 @@ a{-webkit-transition: all .3s ease-in-out 0s;-moz-transition: all .3s ease-in-ou
 .peop-date em{ color: #ff6600; font-weight: bold;}
 .center-info-right .mgl110{ margin-left: 110px;}
 .center-info-right .succeed{ height: 224px; line-height: 224px;text-align: center; font-size: 24px;}
+
+.company-info-right em a{
+    color: #346eb4;}
